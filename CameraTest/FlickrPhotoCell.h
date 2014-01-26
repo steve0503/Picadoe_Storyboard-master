@@ -12,11 +12,20 @@
 @class FlickrPhoto;
 
 @interface FlickrPhotoCell : UICollectionViewCell
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) UIImageView *imageView;
 
 
 @property (nonatomic, strong) FlickrPhoto *photo;
+
 -(void)setPhoto:(FlickrPhoto *)photo;
+
+
+
+
+
+
+
+
 
 @end
 
